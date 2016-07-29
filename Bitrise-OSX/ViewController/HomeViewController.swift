@@ -21,7 +21,7 @@ class HomeViewController: NSViewController {
   }
     
   @IBAction func configClick(sender: AnyObject) {
-    
+    self.presentViewControllerAsModalWindow(AuthViewController())
   }
   
   

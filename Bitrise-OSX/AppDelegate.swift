@@ -25,6 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     popover.appearance = NSAppearance(named: NSAppearanceNameVibrantLight)
     popover.behavior = NSPopoverBehavior.Transient
     popover.contentViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+    
   }
 
   func applicationWillTerminate(aNotification: NSNotification) {

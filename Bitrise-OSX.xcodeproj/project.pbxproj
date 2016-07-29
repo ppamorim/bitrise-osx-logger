@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481BE5821D4C13D800324DA9 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE5801D4C13D800324DA9 /* AuthViewController.swift */; };
+		481BE5831D4C13D800324DA9 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481BE5811D4C13D800324DA9 /* AuthViewController.xib */; };
 		481D8F7A1D4B952D00684E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481D8F791D4B952D00684E10 /* AppDelegate.swift */; };
 		481D8F7C1D4B952D00684E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F7B1D4B952D00684E10 /* Assets.xcassets */; };
 		481D8F7F1D4B952D00684E10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F7D1D4B952D00684E10 /* MainMenu.xib */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitrise_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		394D9C9BA52A35BC5F3905E5 /* Pods-bitrise-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrise-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx.release.xcconfig"; sourceTree = "<group>"; };
+		481BE5801D4C13D800324DA9 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		481BE5811D4C13D800324DA9 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
 		481D8F761D4B952D00684E10 /* Bitrise-OSX.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-OSX.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481D8F791D4B952D00684E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		481D8F7B1D4B952D00684E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,15 +74,26 @@
 		481D8F781D4B952D00684E10 /* Bitrise-OSX */ = {
 			isa = PBXGroup;
 			children = (
+				481D8F8A1D4BF4C200684E10 /* ViewController */,
 				481D8F791D4B952D00684E10 /* AppDelegate.swift */,
 				481D8F7B1D4B952D00684E10 /* Assets.xcassets */,
 				481D8F7D1D4B952D00684E10 /* MainMenu.xib */,
 				481D8F801D4B952D00684E10 /* Info.plist */,
-				481D8F871D4B95E900684E10 /* HomeViewController.xib */,
-				481D8F861D4B95E900684E10 /* HomeViewController.swift */,
 			);
 			name = "Bitrise-OSX";
 			path = "bitrise-osx";
+			sourceTree = "<group>";
+		};
+		481D8F8A1D4BF4C200684E10 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				481D8F871D4B95E900684E10 /* HomeViewController.xib */,
+				481D8F861D4B95E900684E10 /* HomeViewController.swift */,
+				481BE5801D4C13D800324DA9 /* AuthViewController.swift */,
+				481BE5811D4C13D800324DA9 /* AuthViewController.xib */,
+			);
+			name = ViewController;
+			path = "../Bitrise-OSX/ViewController";
 			sourceTree = "<group>";
 		};
 		E81026C387A38F5E315A0B97 /* Frameworks */ = {
@@ -150,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481BE5831D4C13D800324DA9 /* AuthViewController.xib in Resources */,
 				481D8F7C1D4B952D00684E10 /* Assets.xcassets in Resources */,
 				481D8F7F1D4B952D00684E10 /* MainMenu.xib in Resources */,
 				481D8F891D4B95E900684E10 /* HomeViewController.xib in Resources */,
@@ -212,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				481D8F7A1D4B952D00684E10 /* AppDelegate.swift in Sources */,
+				481BE5821D4C13D800324DA9 /* AuthViewController.swift in Sources */,
 				481D8F881D4B95E900684E10 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
