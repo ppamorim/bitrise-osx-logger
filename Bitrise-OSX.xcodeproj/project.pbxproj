@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481D8F7A1D4B952D00684E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481D8F791D4B952D00684E10 /* AppDelegate.swift */; };
+		481D8F7C1D4B952D00684E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F7B1D4B952D00684E10 /* Assets.xcassets */; };
+		481D8F7F1D4B952D00684E10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F7D1D4B952D00684E10 /* MainMenu.xib */; };
+		481D8F881D4B95E900684E10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481D8F861D4B95E900684E10 /* HomeViewController.swift */; };
+		481D8F891D4B95E900684E10 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F871D4B95E900684E10 /* HomeViewController.xib */; };
+		8F9CC8D525BB2AFA051A388F /* Pods_bitrise_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitrise_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D9C9BA52A35BC5F3905E5 /* Pods-bitrise-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrise-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx.release.xcconfig"; sourceTree = "<group>"; };
+		481D8F761D4B952D00684E10 /* Bitrise-OSX.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-OSX.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481D8F791D4B952D00684E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		481D8F7B1D4B952D00684E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		481D8F7E1D4B952D00684E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		481D8F801D4B952D00684E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481D8F861D4B95E900684E10 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		481D8F871D4B95E900684E10 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CF51F6C18F911114F6A0A2E4 /* Pods-bitrise-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrise-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		481D8F731D4B952D00684E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9CC8D525BB2AFA051A388F /* Pods_bitrise_osx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039E48768F5709925903E7B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF51F6C18F911114F6A0A2E4 /* Pods-bitrise-osx.debug.xcconfig */,
+				394D9C9BA52A35BC5F3905E5 /* Pods-bitrise-osx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		481D8F6D1D4B952D00684E10 = {
+			isa = PBXGroup;
+			children = (
+				481D8F781D4B952D00684E10 /* Bitrise-OSX */,
+				481D8F771D4B952D00684E10 /* Products */,
+				039E48768F5709925903E7B5 /* Pods */,
+				E81026C387A38F5E315A0B97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		481D8F771D4B952D00684E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				481D8F761D4B952D00684E10 /* Bitrise-OSX.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		481D8F781D4B952D00684E10 /* Bitrise-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				481D8F791D4B952D00684E10 /* AppDelegate.swift */,
+				481D8F7B1D4B952D00684E10 /* Assets.xcassets */,
+				481D8F7D1D4B952D00684E10 /* MainMenu.xib */,
+				481D8F801D4B952D00684E10 /* Info.plist */,
+				481D8F871D4B95E900684E10 /* HomeViewController.xib */,
+				481D8F861D4B95E900684E10 /* HomeViewController.swift */,
+			);
+			name = "Bitrise-OSX";
+			path = "bitrise-osx";
+			sourceTree = "<group>";
+		};
+		E81026C387A38F5E315A0B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		481D8F751D4B952D00684E10 /* bitrise-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481D8F831D4B952D00684E10 /* Build configuration list for PBXNativeTarget "bitrise-osx" */;
+			buildPhases = (
+				D19FDC304298DE4C1287350C /* [CP] Check Pods Manifest.lock */,
+				481D8F721D4B952D00684E10 /* Sources */,
+				481D8F731D4B952D00684E10 /* Frameworks */,
+				481D8F741D4B952D00684E10 /* Resources */,
+				CCFC740D6EB037D504050E7F /* [CP] Embed Pods Frameworks */,
+				229DA977AC3E59B3ADA23E84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitrise-osx";
+			productName = "bitrise-osx";
+			productReference = 481D8F761D4B952D00684E10 /* Bitrise-OSX.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		481D8F6E1D4B952D00684E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pedro Paulo de Amorim";
+				TargetAttributes = {
+					481D8F751D4B952D00684E10 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 481D8F711D4B952D00684E10 /* Build configuration list for PBXProject "Bitrise-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 481D8F6D1D4B952D00684E10;
+			productRefGroup = 481D8F771D4B952D00684E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				481D8F751D4B952D00684E10 /* bitrise-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		481D8F741D4B952D00684E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481D8F7C1D4B952D00684E10 /* Assets.xcassets in Resources */,
+				481D8F7F1D4B952D00684E10 /* MainMenu.xib in Resources */,
+				481D8F891D4B95E900684E10 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		229DA977AC3E59B3ADA23E84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFC740D6EB037D504050E7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19FDC304298DE4C1287350C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481D8F721D4B952D00684E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481D8F7A1D4B952D00684E10 /* AppDelegate.swift in Sources */,
+				481D8F881D4B95E900684E10 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		481D8F7D1D4B952D00684E10 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481D8F7E1D4B952D00684E10 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		481D8F811D4B952D00684E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		481D8F821D4B952D00684E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		481D8F841D4B952D00684E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF51F6C18F911114F6A0A2E4 /* Pods-bitrise-osx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bitrise-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tpro.bitrise-osx";
+				PRODUCT_NAME = "Bitrise-OSX.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		481D8F851D4B952D00684E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394D9C9BA52A35BC5F3905E5 /* Pods-bitrise-osx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bitrise-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tpro.bitrise-osx";
+				PRODUCT_NAME = "Bitrise-OSX.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		481D8F711D4B952D00684E10 /* Build configuration list for PBXProject "Bitrise-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481D8F811D4B952D00684E10 /* Debug */,
+				481D8F821D4B952D00684E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481D8F831D4B952D00684E10 /* Build configuration list for PBXNativeTarget "bitrise-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481D8F841D4B952D00684E10 /* Debug */,
+				481D8F851D4B952D00684E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 481D8F6E1D4B952D00684E10 /* Project object */;
+}
