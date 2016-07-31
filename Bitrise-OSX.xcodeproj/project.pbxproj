@@ -9,19 +9,42 @@
 /* Begin PBXBuildFile section */
 		481BE5821D4C13D800324DA9 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE5801D4C13D800324DA9 /* AuthViewController.swift */; };
 		481BE5831D4C13D800324DA9 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481BE5811D4C13D800324DA9 /* AuthViewController.xib */; };
+		481BE5861D4CDBC900324DA9 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BE5841D4CDBC900324DA9 /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		481BE5871D4CDBC900324DA9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BE5851D4CDBC900324DA9 /* RealmSwift.framework */; };
+		481BE58A1D4D211B00324DA9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE5891D4D211B00324DA9 /* User.swift */; };
+		481BE58C1D4D21C600324DA9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE58B1D4D21C600324DA9 /* App.swift */; };
+		481BE58E1D4D21D000324DA9 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE58D1D4D21D000324DA9 /* Branch.swift */; };
+		481BE5931D4D260000324DA9 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE5921D4D260000324DA9 /* AuthRequest.swift */; };
+		481BE5961D4D261800324DA9 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BE5941D4D261800324DA9 /* AlamofireObjectMapper.framework */; };
+		481BE5971D4D261800324DA9 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481BE5951D4D261800324DA9 /* ObjectMapper.framework */; };
+		481BE5991D4D28C400324DA9 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE5981D4D28C400324DA9 /* URL.swift */; };
+		481BE5A11D4E4A2D00324DA9 /* AuthWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BE59F1D4E4A2C00324DA9 /* AuthWindowController.swift */; };
+		481BE5A21D4E4A2D00324DA9 /* AuthWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481BE5A01D4E4A2D00324DA9 /* AuthWindowController.xib */; };
 		481D8F7A1D4B952D00684E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481D8F791D4B952D00684E10 /* AppDelegate.swift */; };
 		481D8F7C1D4B952D00684E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F7B1D4B952D00684E10 /* Assets.xcassets */; };
 		481D8F7F1D4B952D00684E10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F7D1D4B952D00684E10 /* MainMenu.xib */; };
 		481D8F881D4B95E900684E10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481D8F861D4B95E900684E10 /* HomeViewController.swift */; };
 		481D8F891D4B95E900684E10 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481D8F871D4B95E900684E10 /* HomeViewController.xib */; };
+		48B550921D4E7DB2008EF8C3 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B550911D4E7DB2008EF8C3 /* SettingsViewCell.swift */; };
 		8F9CC8D525BB2AFA051A388F /* Pods_bitrise_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitrise_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		394D9C9BA52A35BC5F3905E5 /* Pods-bitrise-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrise-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx.release.xcconfig"; sourceTree = "<group>"; };
-		481BE5801D4C13D800324DA9 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		481BE5801D4C13D800324DA9 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		481BE5811D4C13D800324DA9 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		481BE5841D4CDBC900324DA9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Pods/../build/Debug/Realm/Realm.framework; sourceTree = "<group>"; };
+		481BE5851D4CDBC900324DA9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Pods/../build/Debug/RealmSwift/RealmSwift.framework; sourceTree = "<group>"; };
+		481BE5891D4D211B00324DA9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		481BE58B1D4D21C600324DA9 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		481BE58D1D4D21D000324DA9 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		481BE5921D4D260000324DA9 /* AuthRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		481BE5941D4D261800324DA9 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Pods/../build/Debug/AlamofireObjectMapper/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		481BE5951D4D261800324DA9 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../Library/Developer/Xcode/DerivedData/Bitrise-OSX-ervwwcpqkpejokbpxlajpapkxklz/Build/Products/Debug/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
+		481BE5981D4D28C400324DA9 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		481BE59F1D4E4A2C00324DA9 /* AuthWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthWindowController.swift; sourceTree = "<group>"; };
+		481BE5A01D4E4A2D00324DA9 /* AuthWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthWindowController.xib; sourceTree = "<group>"; };
 		481D8F761D4B952D00684E10 /* Bitrise-OSX.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-OSX.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481D8F791D4B952D00684E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		481D8F7B1D4B952D00684E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +52,7 @@
 		481D8F801D4B952D00684E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		481D8F861D4B95E900684E10 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		481D8F871D4B95E900684E10 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		48B550911D4E7DB2008EF8C3 /* SettingsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
 		CF51F6C18F911114F6A0A2E4 /* Pods-bitrise-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrise-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitrise-osx/Pods-bitrise-osx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481BE5961D4D261800324DA9 /* AlamofireObjectMapper.framework in Frameworks */,
+				481BE5971D4D261800324DA9 /* ObjectMapper.framework in Frameworks */,
+				481BE5861D4CDBC900324DA9 /* Realm.framework in Frameworks */,
+				481BE5871D4CDBC900324DA9 /* RealmSwift.framework in Frameworks */,
 				8F9CC8D525BB2AFA051A388F /* Pods_bitrise_osx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +79,55 @@
 				394D9C9BA52A35BC5F3905E5 /* Pods-bitrise-osx.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		481BE5881D4CDBF700324DA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				481BE5891D4D211B00324DA9 /* User.swift */,
+				481BE58B1D4D21C600324DA9 /* App.swift */,
+				481BE58D1D4D21D000324DA9 /* Branch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		481BE58F1D4D24B600324DA9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				48B550901D4E7D8A008EF8C3 /* Cell */,
+				481BE59A1D4D2C3400324DA9 /* Window */,
+				481D8F8A1D4BF4C200684E10 /* ViewController */,
+			);
+			name = UI;
+			path = "../Bitrise-OSX/UI";
+			sourceTree = "<group>";
+		};
+		481BE5901D4D255600324DA9 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				481BE5911D4D25E200324DA9 /* Request */,
+				481BE5881D4CDBF700324DA9 /* Model */,
+			);
+			name = Rules;
+			path = "../Bitrise-OSX/Rules";
+			sourceTree = "<group>";
+		};
+		481BE5911D4D25E200324DA9 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				481BE5921D4D260000324DA9 /* AuthRequest.swift */,
+				481BE5981D4D28C400324DA9 /* URL.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		481BE59A1D4D2C3400324DA9 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				481BE59F1D4E4A2C00324DA9 /* AuthWindowController.swift */,
+				481BE5A01D4E4A2D00324DA9 /* AuthWindowController.xib */,
+			);
+			path = Window;
 			sourceTree = "<group>";
 		};
 		481D8F6D1D4B952D00684E10 = {
@@ -74,7 +151,8 @@
 		481D8F781D4B952D00684E10 /* Bitrise-OSX */ = {
 			isa = PBXGroup;
 			children = (
-				481D8F8A1D4BF4C200684E10 /* ViewController */,
+				481BE5901D4D255600324DA9 /* Rules */,
+				481BE58F1D4D24B600324DA9 /* UI */,
 				481D8F791D4B952D00684E10 /* AppDelegate.swift */,
 				481D8F7B1D4B952D00684E10 /* Assets.xcassets */,
 				481D8F7D1D4B952D00684E10 /* MainMenu.xib */,
@@ -92,13 +170,24 @@
 				481BE5801D4C13D800324DA9 /* AuthViewController.swift */,
 				481BE5811D4C13D800324DA9 /* AuthViewController.xib */,
 			);
-			name = ViewController;
-			path = "../Bitrise-OSX/ViewController";
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		48B550901D4E7D8A008EF8C3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				48B550911D4E7DB2008EF8C3 /* SettingsViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		E81026C387A38F5E315A0B97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				481BE5941D4D261800324DA9 /* AlamofireObjectMapper.framework */,
+				481BE5951D4D261800324DA9 /* ObjectMapper.framework */,
+				481BE5841D4CDBC900324DA9 /* Realm.framework */,
+				481BE5851D4CDBC900324DA9 /* RealmSwift.framework */,
 				154CFA132B4425809226E52B /* Pods_bitrise_osx.framework */,
 			);
 			name = Frameworks;
@@ -168,6 +257,7 @@
 				481BE5831D4C13D800324DA9 /* AuthViewController.xib in Resources */,
 				481D8F7C1D4B952D00684E10 /* Assets.xcassets in Resources */,
 				481D8F7F1D4B952D00684E10 /* MainMenu.xib in Resources */,
+				481BE5A21D4E4A2D00324DA9 /* AuthWindowController.xib in Resources */,
 				481D8F891D4B95E900684E10 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,9 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481BE58A1D4D211B00324DA9 /* User.swift in Sources */,
 				481D8F7A1D4B952D00684E10 /* AppDelegate.swift in Sources */,
 				481BE5821D4C13D800324DA9 /* AuthViewController.swift in Sources */,
+				481BE58C1D4D21C600324DA9 /* App.swift in Sources */,
+				481BE5A11D4E4A2D00324DA9 /* AuthWindowController.swift in Sources */,
+				48B550921D4E7DB2008EF8C3 /* SettingsViewCell.swift in Sources */,
 				481D8F881D4B95E900684E10 /* HomeViewController.swift in Sources */,
+				481BE5931D4D260000324DA9 /* AuthRequest.swift in Sources */,
+				481BE58E1D4D21D000324DA9 /* Branch.swift in Sources */,
+				481BE5991D4D28C400324DA9 /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +432,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug/Realm",
+					"$(PROJECT_DIR)/build/Debug/RealmSwift",
+					"$(PROJECT_DIR)/build/Debug/AlamofireObjectMapper",
+				);
 				INFOPLIST_FILE = "bitrise-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tpro.bitrise-osx";
@@ -348,6 +451,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug/Realm",
+					"$(PROJECT_DIR)/build/Debug/RealmSwift",
+					"$(PROJECT_DIR)/build/Debug/AlamofireObjectMapper",
+				);
 				INFOPLIST_FILE = "bitrise-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tpro.bitrise-osx";

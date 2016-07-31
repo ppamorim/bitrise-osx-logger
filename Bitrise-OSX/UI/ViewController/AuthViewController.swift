@@ -10,9 +10,8 @@ import Cocoa
 
 class AuthViewController: NSViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
-    }
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
     
 }
